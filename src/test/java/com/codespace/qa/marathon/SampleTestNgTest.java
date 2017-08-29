@@ -25,7 +25,7 @@ public class SampleTestNgTest extends TestNgTestBase {
 
     Assert.assertTrue("".equals(homepage.header.getText()));
 
-    homepage.searchField.sendKeys("QA марафон 2017" + Keys.ENTER);
+    homepage.searchField.sendKeys("QA marathon 2017" + Keys.ENTER);
 
     Assert.assertTrue(homepage.getResultPage().foundLinks
             .stream()
